@@ -243,7 +243,7 @@ else()
   include( FetchContent )
   FetchContent_Declare(
     absl
-    GIT_REPOSITORY https://hub.fastgit.org/abseil/abseil-cpp
+    GIT_REPOSITORY https://github.com/abseil/abseil-cpp
     GIT_TAG 3b4a16abad2c2ddc494371cc39a2946e36d35d11
     SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/absl
   )
